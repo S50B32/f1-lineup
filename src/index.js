@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import './fonts/Formula1-Bold.otf';
+import './fonts/Formula1-Regular.otf';
+import './fonts/Formula1-Wide.otf';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
