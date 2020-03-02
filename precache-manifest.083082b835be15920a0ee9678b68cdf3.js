@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc02c85f161dcee26d6b333cc917d6fe",
+    "revision": "7eb995150a040930d861f542bb5cd1d0",
     "url": "/f1-lineup/index.html"
   },
   {
-    "revision": "725d8a3f15040a04d38c",
-    "url": "/f1-lineup/static/css/main.e07b16c0.chunk.css"
+    "revision": "2742c6f3dd95c0e69c0b",
+    "url": "/f1-lineup/static/css/main.ad5a3441.chunk.css"
   },
   {
     "revision": "91d0c7f17532f0f6d391",
@@ -16,12 +16,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/f1-lineup/static/js/2.c4fa1178.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "725d8a3f15040a04d38c",
-    "url": "/f1-lineup/static/js/main.ca853d33.chunk.js"
+    "revision": "2742c6f3dd95c0e69c0b",
+    "url": "/f1-lineup/static/js/main.09e9a5c1.chunk.js"
   },
   {
     "revision": "97f189a19668b937e173",
     "url": "/f1-lineup/static/js/runtime-main.1a69ca8c.js"
+  },
+  {
+    "revision": "5aad4311a9958e26c0218486a704d74e",
+    "url": "/f1-lineup/static/media/Formula1-Bold.5aad4311.otf"
+  },
+  {
+    "revision": "b72680c35f35a822866155df26898abd",
+    "url": "/f1-lineup/static/media/Formula1-Regular.b72680c3.otf"
+  },
+  {
+    "revision": "3e58b17fee834adbdf02c64dce0f3b35",
+    "url": "/f1-lineup/static/media/Formula1-Wide.3e58b17f.otf"
   },
   {
     "revision": "d9a2a9d6bc122f1118ebac02fc694612",
