@@ -7,6 +7,9 @@ import './fonts/Formula1-Bold.otf';
 import './fonts/Formula1-Regular.otf';
 import './fonts/Formula1-Wide.otf';
 
+
+document.title = '2020 F1 Drivers';
+
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
