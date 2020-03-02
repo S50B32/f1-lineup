@@ -13,6 +13,56 @@
     .div-right__data{
         height: 20vmin;
     }
+    .p-copyright {
+      bottom: -12px;
+      right: 12px;
+      color: rgb(0, 0, 0);
+      font-weight: normal;
+    
+    }
+    .div-title__right {
+      border-style: none;
+      position: relative;
+      left: -11vmin;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      padding-top: .5em;
+    }
+    .div-right__photo {
+      left: 3.2vmin;
+    }
 
+    h1 {
+      
+      margin: 0 5.4vh 0;
+      padding: .6vmin;
+      padding-left: 2vmin;
+    }
 
+    h2 {
+      margin: .5vh 5.4vh 0;
+      padding: 1.5vmin .5vmin .5vmin;
+      padding-left: 2vmin;
+      
+      position: relative;
+    }
+
+    .p-team {
+      
+      margin: 0 5.4vh 0;
+      padding: .5vmin .5vmin .5vmin;
+      padding-left: 2vmin;
+    }
+    
+    .div-right__data-flag{
+      right: 0;
+      top: .8em;
+      opacity: .9;
+    
+      width: 20vmin; /*200px*/
+      height: 11.5vmin; /*108px*/
+      margin: 1.5vmin .5vmin 0px;
+
+    }
+  
   }

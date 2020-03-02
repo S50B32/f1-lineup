@@ -53,6 +53,18 @@
   -webkit-box-shadow: 0px 0px 26px -12px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 26px -12px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 26px -12px rgba(0,0,0,0.75);
+  position: relative;
+}
+
+.p-copyright {
+  font-size: .5em;
+  font-weight: light;
+  font-family: Helvetica, sans-serif;
+  position: absolute;
+  right: 1vmin;
+  bottom: 0;
+  color: rgb(255, 255, 255, .7);
+
 }
 
 .container{
@@ -262,16 +274,10 @@
   height: 70%;
   height: 60vmin;
   
-  
   margin: 10px 0 0;
 
   position: relative;
-  left: 25px;
-  
-
-  
-
-  
+  left: 2.6vmin;
 
   border-top: 1px solid rgba(0, 0, 0, .3);
   border-right: 1px solid rgba(0, 0, 0, .3);
@@ -329,7 +335,9 @@
   flex-direction: column;
   text-align: left;
   width: 95%;
-  height: 20vmin;
+  height: 18vmin;
+  margin-bottom: 2.2vmin;
+  
   /*border-bottom: 3px blue solid;*/
   
   
@@ -391,13 +399,11 @@
 h1 {
   font-family: 'Formula1 Display Regular';
   font-weight: bold;
-  font-size: 2em;
+  font-size: 2.3em;
   letter-spacing: 1px;
-  margin: 0 50px 0;
   margin: 0 5.4vh 0;
-  padding: 5px;
   padding: .6vmin;
-  padding-left: 30px;
+  padding-left: 3vmin;
   opacity: .9;
   
 }
@@ -409,24 +415,25 @@ h1 {
 }
 
 h2 {
-  margin: 0 50px 0;
   margin: 0 5.4vh 0;
-  padding: 15px 5px 5px;
   padding: 1.5vmin .5vmin .5vmin;
-  padding-left: 30px;
-  font-family: 'Formula1 Display Regular';
+  padding-left: 3vmin;
+  
   font-weight: lighter;
-  font-size: 1.5em;
+  font-size: 1.7em;
   letter-spacing: 1px;
   position: relative;
   opacity: .9;
+
+  font-family: 'Formula1 Display Regular';
 }
 .p-team {
-  padding-left: 30px;
-  margin: 5px 80px 15px;
-  margin: 5px 5.4vh 15px;
-  margin: 5px 5.4vh 1.7vh;
+  
+  margin: 0 5.4vh 0;
+  padding: .5vmin .5vmin .5vmin;
+  padding-left: 3vmin;
   color: #282c34;
+  font-size: 1.2em;
   
 }
 
@@ -441,6 +448,7 @@ h2 {
   border-bottom-left-radius: 25px;
   
   height: 18vmin;
+  height: 100%;
   width: 55px;
   width: 6.1vmin;
 

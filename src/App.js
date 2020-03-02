@@ -10,7 +10,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className='top'>
-          <img src={logo} className="App-logo" alt="logo" /> <h1 className='h1-title'>REACT F1 Driver Line-up</h1>
+          <img src={logo} className="App-logo" alt="logo" />
+            <h1 className='h1-title'>REACT F1 Driver Line-up</h1>
+            <p className='p-copyright'>Copyright © 2020 gupia_Pemek</p>
         </div>
         <DriverProfile />
       </header>

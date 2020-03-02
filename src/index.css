@@ -16,13 +16,13 @@ code {
 
 @font-face {
   font-family: 'Formula1 Display Bold';
-  src: local('Formula1 Display Bold'), url(./fonts/Formula1-Bold.otf), format('opentype');
+  src: local('Formula1 Display Bold'), url(./fonts/Formula1-Bold.otf) format('opentype');
 }
 @font-face {
   font-family: 'Formula1 Display Regular';
-  src: local('Formula1 Display Regular'), url(./fonts/Formula1-Regular.otf), format('opentype');
+  src: local('Formula1 Display Regular'), url(./fonts/Formula1-Regular.otf) format('opentype');
 }
 @font-face {
   font-family: 'Formula1 Display Wide';
-  src: local('Formula1 Display Wide'), url(./fonts/Formula1-Wide.otf), format('opentype');
+  src: local('Formula1 Display Wide'), url(./fonts/Formula1-Wide.otf) format('opentype');
 }
