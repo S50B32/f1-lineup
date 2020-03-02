@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/f1-lineup/static/css/main.5d424bf3.chunk.css",
+    "main.css": "/f1-lineup/static/css/main.e07b16c0.chunk.css",
     "main.js": "/f1-lineup/static/js/main.ca853d33.chunk.js",
     "main.js.map": "/f1-lineup/static/js/main.ca853d33.chunk.js.map",
     "runtime-main.js": "/f1-lineup/static/js/runtime-main.1a69ca8c.js",
@@ -8,9 +8,9 @@
     "static/js/2.c4fa1178.chunk.js": "/f1-lineup/static/js/2.c4fa1178.chunk.js",
     "static/js/2.c4fa1178.chunk.js.map": "/f1-lineup/static/js/2.c4fa1178.chunk.js.map",
     "index.html": "/f1-lineup/index.html",
-    "precache-manifest.a19f483b8c2b1552676465ccab20ec5c.js": "/f1-lineup/precache-manifest.a19f483b8c2b1552676465ccab20ec5c.js",
+    "precache-manifest.2711afa42c9afaf5ac174f33b3922dde.js": "/f1-lineup/precache-manifest.2711afa42c9afaf5ac174f33b3922dde.js",
     "service-worker.js": "/f1-lineup/service-worker.js",
-    "static/css/main.5d424bf3.chunk.css.map": "/f1-lineup/static/css/main.5d424bf3.chunk.css.map",
+    "static/css/main.e07b16c0.chunk.css.map": "/f1-lineup/static/css/main.e07b16c0.chunk.css.map",
     "static/js/2.c4fa1178.chunk.js.LICENSE.txt": "/f1-lineup/static/js/2.c4fa1178.chunk.js.LICENSE.txt",
     "static/media/albon.png": "/f1-lineup/static/media/albon.d9a2a9d6.png",
     "static/media/alfaromeo.png": "/f1-lineup/static/media/alfaromeo.c9a18cb2.png",
@@ -62,7 +62,7 @@
   "entrypoints": [
     "static/js/runtime-main.1a69ca8c.js",
     "static/js/2.c4fa1178.chunk.js",
-    "static/css/main.5d424bf3.chunk.css",
+    "static/css/main.e07b16c0.chunk.css",
     "static/js/main.ca853d33.chunk.js"
   ]
 }
