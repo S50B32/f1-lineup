@@ -94,13 +94,21 @@
   padding: 10px 0px 10px;
   width: 90%;
   border-width: 0 0 1px;
-  border-color: rgba(250, 250, 248, .5);
   border-style: solid;
   
 }
-div-title__left {}
+.div-title__left {
+  border-color: rgba(250, 250, 248, .5);
 
-div-title__right {}
+}
+
+.div-title__right {
+  border-color: rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px rgb(36, 36, 36, .2);
+
+
+
+}
 
 
 
@@ -252,14 +260,14 @@ div-title__right {}
   /*box-sizing: content-box;*/
   width: 87%;
   height: 70%;
-  height: 63vmin;
+  height: 60vmin;
   
   
   margin: 10px 0 0;
 
   position: relative;
   left: 25px;
-  top: -7px;
+  
 
   
 
@@ -321,6 +329,7 @@ div-title__right {}
   flex-direction: column;
   text-align: left;
   width: 95%;
+  height: 20vmin;
   /*border-bottom: 3px blue solid;*/
   
   
@@ -426,13 +435,14 @@ h2 {
   content: '';
   display: block;
   position: absolute;
-  margin-top: -7px;
   left: 1px;
   top: -1px;
+    
   border-bottom-left-radius: 25px;
   
-  height: 105%;
+  height: 18vmin;
   width: 55px;
+  width: 6.1vmin;
 
   
   border-top: rgba(0,0,0,.3) 1px solid;
