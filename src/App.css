@@ -1,0 +1,480 @@
+.App {
+  text-align: center;
+  font-size: 2vmin; /*18px;*/
+}
+
+.App-logo {
+  height: 23.38px;
+  height: 2.5vmin;/*3vmin;*/
+  padding: 5px;
+  pointer-events: none;
+}
+
+
+
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/*@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
+
+.top {
+  width: 100%;
+  height: 71px; /*7vmin;*/
+  height: 7.65vmin; 
+  background-color: #E10600;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em; /*1.5vmin;*/
+ 
+  font-family: 'Formula1 Display Regular';
+  
+
+  -webkit-box-shadow: 0px 0px 26px -12px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 26px -12px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 26px -12px rgba(0,0,0,0.75);
+}
+
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+}
+
+.div {
+  
+  width: 45%;
+  height: 100%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  /*shadow*/
+  -webkit-box-shadow: 0px 0px 26px -12px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 26px -12px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 26px -12px rgba(0,0,0,0.75);
+
+}
+
+
+.div-left {
+  
+  border-bottom-right-radius: 5%;
+  align-items: center;
+  background-color: rgba(0, 0, 0, .9);
+  justify-content: center;
+  position: relative;
+}
+.div-title {
+  letter-spacing: 1px;  
+  font-family: 'Formula1 Display Regular';
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px 0px 10px;
+  width: 90%;
+  border-width: 0 0 1px;
+  border-color: rgba(250, 250, 248, .5);
+  border-style: solid;
+  
+}
+div-title__left {}
+
+div-title__right {}
+
+
+
+
+.ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px 10px;
+  width: 100%;
+  margin: 10px;
+}
+
+.li {
+  display: flex;
+  list-style: none;
+  background-color: none;
+  border-radius: 10px;
+  width: 83%;
+  margin-top: 3px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: default;
+}
+
+.li:hover {
+  background-color: rgba(250, 250, 248, .2);
+}
+
+.li-true {
+  background-color: rgba(250, 250, 248, .5);
+  color: black;
+  font-weight: bold;
+}
+.li-false {
+  background-color: none;
+}
+
+.li-number__div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 3.416vmin; /*32px*/
+  height: 3.416vmin; /*32px*/
+  border-radius: 1px;
+  border-bottom-right-radius: 6px;;
+  background-color: rgba(250, 250, 248, .9);
+  color: black;
+  font-family: 'Formula1 Display Regular';
+  font-size: .9em;/*16px*/
+  font-weight: bold;
+}
+.li-name__div {
+  display: flex;
+  align-items: center;
+  padding: 0 1.6em 0;
+  letter-spacing: .6px;  
+  font-family: 'Formula1 Display Regular';
+  font-size: 1em;
+}
+.li-name__div::before {
+  background-color: chartreuse;
+  content: '';
+  position: absolute;
+  left: 6.3%; /*45px*/
+  height: .854em; /*16px*/
+  width: .25em; /*5px*/
+}
+.li-name__div-haas::before {
+  background-color: rgb(120, 120, 120);
+}
+.li-name__div-alfaromeo::before {
+  background-color: rgb(150, 0, 0);
+}
+.li-name__div-williams::before {
+  background-color: rgb(0, 130, 250);
+}
+.li-name__div-mercedes::before {
+  background-color: rgb(0, 210, 190);
+}
+.li-name__div-ferrari::before {
+  background-color: rgb(220, 0, 0);
+}
+.li-name__div-redbull::before {
+  background-color: rgb(6, 0, 239);
+}
+.li-name__div-mclaren::before {
+  background-color: rgb(255, 135, 0);
+}
+.li-name__div-renault::before {
+  background-color: rgb(255, 245, 0);
+}
+.li-name__div-alphatauri::before {
+  background-color: rgb(255, 255, 255);
+}
+.li-name__div-racingpoint::before {
+  background-color: rgb(245, 150, 200);
+}
+.li-name__div-renault::before {
+  background-color: rgb(255, 245, 0);
+}
+
+
+
+.li-team__div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 .8em 0;
+  letter-spacing: .5px;  
+  font-family: 'Formula1 Display Regular';
+  font-size: .9em;
+  position: absolute; /*.li = relative*/
+  left: 61%;
+}
+
+
+.li-car__img {
+  height: 2.985vmin;
+  height: 1.5em;
+  position: absolute;
+  left: 86%;
+  opacity: .8;
+}
+
+.li-flag__img {
+  margin: 0 .3em 0;
+  height: 2.562vmin;
+  width: 4.3vmin;
+  position: absolute;
+  left: 49%;
+  opacity: .8;
+}
+
+
+.div-right {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: rgba(250, 250, 248, .9); /* same as the number div /*
+  /*background-color: rgba(255, 255, 255, .8);*/
+  color: black;
+  border-bottom-left-radius: 5%;
+  height: 100%;
+}
+.div-right__photo {
+  /*box-sizing: content-box;*/
+  width: 87%;
+  height: 70%;
+  height: 63vmin;
+  
+  
+  margin: 10px 0 0;
+
+  position: relative;
+  left: 25px;
+  top: -7px;
+
+  
+
+  
+
+  border-top: 1px solid rgba(0, 0, 0, .3);
+  border-right: 1px solid rgba(0, 0, 0, .3);
+  border-top-right-radius: 30px;
+
+  border-bottom: 1px solid rgba(0, 0, 0, .3);
+  border-left: 1px solid rgba(0, 0, 0, .3);
+  
+  background-image: url('pattern.png');
+  background-position: 0 0;
+  background-size: 55%;
+  
+
+}
+
+.div-right__photo-manufacturerLogo{
+  position: absolute;
+  top: 15%;
+  left: 18%;
+  opacity: .9;
+
+  /* centering logo.png offset with margin */
+    width: 13.8vmin; /*img width: 216px*/
+    margin-left: calc(-0.5*13.8vmin); /*half img width: 108px*/
+}
+
+.div-right__photo-img {
+
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  opacity: .9;
+  
+  height: 54.65vmin;
+
+}
+
+.div-right__photo-number {
+
+  position: absolute;
+  bottom: 15%;
+  left: 18%;
+  
+  opacity: .9;
+  
+  /* centering number.png offset with margin */
+    width: 23.1vmin; /*img width: 216px*/
+    margin-left: calc(-0.5*23.1vmin); /*half img width: 108px*/
+}
+
+.div-right__data{
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  text-align: left;
+  width: 95%;
+  /*border-bottom: 3px blue solid;*/
+  
+  
+
+  text-shadow: 2px 2px rgb(36, 36, 36, .2);
+  
+}
+
+.div-right__data-haas {
+  border-color: rgb(120, 120, 120);
+}
+.div-right__data-alfaromeo {
+  border-color: rgb(150, 0, 0);
+}
+.div-right__data-williams {
+  border-color: rgb(0, 130, 250);
+}
+.div-right__data-mercedes {
+  border-color: rgb(0, 210, 190);
+}
+.div-right__data-ferrari {
+  border-color: rgb(220, 0, 0);
+}
+.div-right__data-redbull {
+  border-color: rgb(6, 0, 239);
+}
+.div-right__data-mclaren {
+  border-color: rgb(255, 135, 0);
+}
+.div-right__data-renault {
+  border-color: rgb(255, 245, 0);
+}
+.div-right__data-alphatauri {
+  border-color: rgb(255, 255, 255);
+}
+.div-right__data-racingpoint {
+  border-color: rgb(245, 150, 200);
+}
+.div-right__data-renault {
+  border-color: rgb(255, 245, 0);
+}
+
+.div-right__data-flag{
+  position: absolute;
+  right: 0;
+
+  width: 20vmin; /*200px*/
+  height: 11.5vmin; /*108px*/
+  margin: 1.5vmin .5vmin 0px;
+
+  border-radius: 5px;
+  border: 1px rgba(0, 0, 0, .7) solid;
+
+  -webkit-box-shadow: 20px 20px 40px -26px rgba(0,0,0,0.75);
+  -moz-box-shadow: 20px 20px 40px -26px rgba(0,0,0,0.75);
+   box-shadow: 20px 20px 40px -26px rgba(0,0,0,0.75);
+}
+
+h1 {
+  font-family: 'Formula1 Display Regular';
+  font-weight: bold;
+  font-size: 2em;
+  letter-spacing: 1px;
+  margin: 0 50px 0;
+  margin: 0 5.4vh 0;
+  padding: 5px;
+  padding: .6vmin;
+  padding-left: 30px;
+  opacity: .9;
+  
+}
+
+.h1-title{
+  font-size: 1em;
+  padding: 0;
+  margin: 10;
+}
+
+h2 {
+  margin: 0 50px 0;
+  margin: 0 5.4vh 0;
+  padding: 15px 5px 5px;
+  padding: 1.5vmin .5vmin .5vmin;
+  padding-left: 30px;
+  font-family: 'Formula1 Display Regular';
+  font-weight: lighter;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  position: relative;
+  opacity: .9;
+}
+.p-team {
+  padding-left: 30px;
+  margin: 5px 80px 15px;
+  margin: 5px 5.4vh 15px;
+  margin: 5px 5.4vh 1.7vh;
+  color: #282c34;
+  
+}
+
+.div-right__data::before {
+  
+  content: '';
+  display: block;
+  position: absolute;
+  margin-top: -7px;
+  left: 1px;
+  top: -1px;
+  border-bottom-left-radius: 25px;
+  
+  height: 105%;
+  width: 55px;
+
+  
+  border-top: rgba(0,0,0,.3) 1px solid;
+  border-left: rgba(0,0,0,.3) 1px solid;
+
+  filter: drop-shadow(15px 6px 7px rgba(0,0,0,.1));
+
+}
+
+.div-right__data-haas::before {
+  background-color: rgb(120, 120, 120);
+}
+.div-right__data-alfaromeo::before {
+  background-color: rgb(150, 0, 0);
+}
+.div-right__data-williams::before {
+  background-color: rgb(0, 130, 250);
+}
+.div-right__data-mercedes::before {
+  background-color: rgb(0, 210, 190);
+}
+.div-right__data-ferrari::before {
+  background-color: rgb(220, 0, 0);
+}
+.div-right__data-redbull::before {
+  background-color: rgb(6, 0, 239);
+}
+.div-right__data-mclaren::before {
+  background-color: rgb(255, 135, 0);
+}
+.div-right__data-renault::before {
+  background-color: rgb(255, 245, 0);
+}
+.div-right__data-alphatauri::before {
+  background-color: rgb(255, 255, 255);
+}
+.div-right__data-racingpoint::before {
+  background-color: rgb(245, 150, 200);
+}
+.div-right__data-renault::before {
+  background-color: rgb(255, 245, 0);
+}
+
+
+

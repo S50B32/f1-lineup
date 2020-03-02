@@ -1,0 +1,18 @@
+@media 
+  (max-device-width: 800px){ 
+    .container{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .div {
+      width: auto;
+    }
+    .div-right__photo {
+        height: 45vmin;
+    }
+    .div-right__data{
+        height: 20vmin;
+    }
+
+
+  }
