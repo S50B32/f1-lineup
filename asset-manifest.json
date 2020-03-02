@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/f1-lineup/static/css/main.ad5a3441.chunk.css",
-    "main.js": "/f1-lineup/static/js/main.09e9a5c1.chunk.js",
-    "main.js.map": "/f1-lineup/static/js/main.09e9a5c1.chunk.js.map",
+    "main.css": "/f1-lineup/static/css/main.3bf2d286.chunk.css",
+    "main.js": "/f1-lineup/static/js/main.e1d998ff.chunk.js",
+    "main.js.map": "/f1-lineup/static/js/main.e1d998ff.chunk.js.map",
     "runtime-main.js": "/f1-lineup/static/js/runtime-main.1a69ca8c.js",
     "runtime-main.js.map": "/f1-lineup/static/js/runtime-main.1a69ca8c.js.map",
     "static/js/2.c4fa1178.chunk.js": "/f1-lineup/static/js/2.c4fa1178.chunk.js",
     "static/js/2.c4fa1178.chunk.js.map": "/f1-lineup/static/js/2.c4fa1178.chunk.js.map",
     "index.html": "/f1-lineup/index.html",
-    "precache-manifest.083082b835be15920a0ee9678b68cdf3.js": "/f1-lineup/precache-manifest.083082b835be15920a0ee9678b68cdf3.js",
+    "precache-manifest.ce369bb84d2eeaa8b010c29a7e09e538.js": "/f1-lineup/precache-manifest.ce369bb84d2eeaa8b010c29a7e09e538.js",
     "service-worker.js": "/f1-lineup/service-worker.js",
-    "static/css/main.ad5a3441.chunk.css.map": "/f1-lineup/static/css/main.ad5a3441.chunk.css.map",
+    "static/css/main.3bf2d286.chunk.css.map": "/f1-lineup/static/css/main.3bf2d286.chunk.css.map",
     "static/js/2.c4fa1178.chunk.js.LICENSE.txt": "/f1-lineup/static/js/2.c4fa1178.chunk.js.LICENSE.txt",
     "static/media/Formula1-Bold.otf": "/f1-lineup/static/media/Formula1-Bold.5aad4311.otf",
     "static/media/Formula1-Regular.otf": "/f1-lineup/static/media/Formula1-Regular.b72680c3.otf",
@@ -65,7 +65,7 @@
   "entrypoints": [
     "static/js/runtime-main.1a69ca8c.js",
     "static/js/2.c4fa1178.chunk.js",
-    "static/css/main.ad5a3441.chunk.css",
-    "static/js/main.09e9a5c1.chunk.js"
+    "static/css/main.3bf2d286.chunk.css",
+    "static/js/main.e1d998ff.chunk.js"
   ]
 }
