@@ -64,5 +64,12 @@
       margin: 1.5vmin .5vmin 0px;
 
     }
+    .div-right__data{
+      margin-bottom: 0;
+    }
+    .div{
+      margin-top: 10px;
+      margin-bottom: 0;
+    }
   
   }
