@@ -73,3 +73,13 @@
     }
   
   }
+
+  @media all and (max-width: 1000px){
+    .container{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .div {
+      width: auto;
+    }
+  }
