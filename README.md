@@ -1,3 +1,5 @@
+View the project: https://s50b32.github.io/f1-lineup/.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
