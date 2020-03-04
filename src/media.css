@@ -13,7 +13,7 @@
     .div-right__data{
         height: 20vmin;
     }
-    .p-copyright {
+    .header__p--copyright {
       bottom: -12px;
       right: 12px;
       color: rgb(0, 0, 0);

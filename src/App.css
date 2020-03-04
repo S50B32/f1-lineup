@@ -2,41 +2,25 @@
   text-align: center;
   font-size: 2vmin; /*18px;*/
 }
-
-.App-logo {
+.header__logo {
   height: 23.38px;
   height: 2.5vmin;/*3vmin;*/
   padding: 5px;
   pointer-events: none;
 }
-
-
-
-
-.App-header {
+.header {
   background-color: white;
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
+  text-align: center;
+  font-size: 2vmin; /*18px;*/
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-/*@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}*/
-
-.top {
+.header__div {
+  position: relative;
   width: 100%;
   height: 71px; /*7vmin;*/
   height: 7.65vmin; 
@@ -46,17 +30,13 @@
   align-items: center;
   justify-content: center;
   font-size: 1.2em; /*1.5vmin;*/
- 
   font-family: 'Formula1 Display Regular';
   
-
-  -webkit-box-shadow: 0px 0px 26px -12px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 26px -12px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 26px -12px rgba(0,0,0,0.75);
-  position: relative;
+    -webkit-box-shadow: 0px 0px 26px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 26px -12px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 26px -12px rgba(0,0,0,0.75);
 }
-
-.p-copyright {
+.header__p--copyright {
   font-size: .5em;
   font-weight: light;
   font-family: Helvetica, sans-serif;
@@ -65,18 +45,14 @@
   bottom: 0;
   color: rgb(255, 255, 255, .7);
   opacity: 0;
-
 }
-
 .container{
   display: flex;
   justify-content: space-evenly;
   width: 100%;
   height: 100%;
 }
-
 .div {
-  
   width: 45%;
   height: 100%;
   margin: 10px;
@@ -87,17 +63,14 @@
   -webkit-box-shadow: 0px 0px 26px -12px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 26px -12px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 26px -12px rgba(0,0,0,0.75);
-
 }
-
-
-.div-left {
-  
+.div-left { 
   border-bottom-right-radius: 5%;
   align-items: center;
   background-color: rgba(0, 0, 0, .9);
   justify-content: center;
   position: relative;
+  color: rgba(250, 250, 248, .9)
 }
 .div-title {
   letter-spacing: 1px;  
@@ -112,20 +85,11 @@
 }
 .div-title__left {
   border-color: rgba(250, 250, 248, .5);
-
 }
-
 .div-title__right {
   border-color: rgba(0, 0, 0, 0.5);
   text-shadow: 2px 2px rgb(36, 36, 36, .2);
-
-
-
 }
-
-
-
-
 .ul {
   display: flex;
   flex-direction: column;
@@ -134,7 +98,6 @@
   width: 100%;
   margin: 10px;
 }
-
 .li {
   display: flex;
   list-style: none;
@@ -147,11 +110,9 @@
   align-items: center;
   cursor: default;
 }
-
 .li:hover {
   background-color: rgba(250, 250, 248, .2);
 }
-
 .li-true {
   background-color: rgba(250, 250, 248, .5);
   color: black;
@@ -160,7 +121,6 @@
 .li-false {
   background-color: none;
 }
-
 .li-number__div {
   display: flex;
   justify-content: center;
@@ -225,9 +185,6 @@
 .li-name__div-renault::before {
   background-color: rgb(255, 245, 0);
 }
-
-
-
 .li-team__div {
   height: 100%;
   display: flex;
@@ -239,8 +196,6 @@
   position: absolute; /*.li = relative*/
   left: 61%;
 }
-
-
 .li-car__img {
   height: 2.985vmin;
   height: 1.5em;
@@ -248,7 +203,6 @@
   left: 86%;
   opacity: .8;
 }
-
 .li-flag__img {
   margin: 0 .3em 0;
   height: 2.562vmin;
@@ -257,8 +211,6 @@
   left: 49%;
   opacity: .8;
 }
-
-
 .div-right {
   justify-content: center;
   align-items: center;
@@ -290,10 +242,7 @@
   background-image: url('pattern.png');
   background-position: 0 0;
   background-size: 55%;
-  
-
 }
-
 .div-right__photo-manufacturerLogo{
   position: absolute;
   top: 15%;
@@ -304,18 +253,13 @@
     width: 13.8vmin; /*img width: 216px*/
     margin-left: calc(-0.5*13.8vmin); /*half img width: 108px*/
 }
-
 .div-right__photo-img {
-
   position: absolute;
   bottom: 0;
   left: 30%;
   opacity: .9;
-  
   height: 54.65vmin;
-
 }
-
 .div-right__photo-number {
 
   position: absolute;
@@ -328,7 +272,6 @@
     width: 23.1vmin; /*img width: 216px*/
     margin-left: calc(-0.5*23.1vmin); /*half img width: 108px*/
 }
-
 .div-right__data{
   box-sizing: border-box;
   display: flex;
@@ -340,13 +283,8 @@
   margin-bottom: 2.2vmin;
   
   /*border-bottom: 3px blue solid;*/
-  
-  
-
-  text-shadow: 2px 2px rgb(36, 36, 36, .2);
-  
+  text-shadow: 2px 2px rgb(36, 36, 36, .2);  
 }
-
 .div-right__data-haas {
   border-color: rgb(120, 120, 120);
 }
@@ -380,11 +318,9 @@
 .div-right__data-renault {
   border-color: rgb(255, 245, 0);
 }
-
 .div-right__data-flag{
   position: absolute;
   right: 0;
-
   width: 20vmin; /*200px*/
   height: 11.5vmin; /*108px*/
   margin: 1.5vmin .5vmin 0px;
@@ -396,7 +332,6 @@
   -moz-box-shadow: 20px 20px 40px -26px rgba(0,0,0,0.75);
    box-shadow: 20px 20px 40px -26px rgba(0,0,0,0.75);
 }
-
 h1 {
   font-family: 'Formula1 Display Regular';
   font-weight: bold;
@@ -405,41 +340,32 @@ h1 {
   margin: 0 5.4vh 0;
   padding: .6vmin;
   padding-left: 3vmin;
-  opacity: .9;
-  
+  opacity: .9; 
 }
-
-.h1-title{
+.header__title{
   font-size: 1em;
   padding: 0;
   margin: 10;
 }
-
 h2 {
   margin: 0 5.4vh 0;
   padding: 1.5vmin .5vmin .5vmin;
   padding-left: 3vmin;
-  
   font-weight: lighter;
   font-size: 1.7em;
   letter-spacing: 1px;
   position: relative;
   opacity: .9;
-
   font-family: 'Formula1 Display Regular';
 }
 .p-team {
-  
   margin: 0 5.4vh 0;
   padding: .5vmin .5vmin .5vmin;
   padding-left: 3vmin;
   color: #282c34;
   font-size: 1.2em;
-  
 }
-
 .div-right__data::before {
-  
   content: '';
   display: block;
   position: absolute;
@@ -453,14 +379,11 @@ h2 {
   width: 55px;
   width: 6.1vmin;
 
-  
   border-top: rgba(0,0,0,.3) 1px solid;
   border-left: rgba(0,0,0,.3) 1px solid;
 
   filter: drop-shadow(15px 6px 7px rgba(0,0,0,.1));
-
 }
-
 .div-right__data-haas::before {
   background-color: rgb(120, 120, 120);
 }
