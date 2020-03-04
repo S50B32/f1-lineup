@@ -6,7 +6,7 @@ const DriverList = ({drivers, handleListClick}) => {
     return (
         <ul className='ul'>
             {drivers.map((driver, index) => 
-                <DriverListItem driver={driver} index={index} handleListClick={handleListClick} />
+                <DriverListItem driver={driver} index={index} handleListClick={handleListClick} key={driver.no} />
             )}            
         </ul>
     )
