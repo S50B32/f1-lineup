@@ -1,8 +1,8 @@
 import React, {useState, useReducer} from 'react';
 import defaultState from '../data/defaultState';
 import { cloneDeep } from 'lodash';
-import DriverDetails from '../components/MainView/RightDiv/DriverDetails';
-import DriverLineup from '../components/MainView/LeftDiv/DriverLineup';
+import DriverDetails from '../components/DriverView/RightDiv/DriverDetails';
+import DriverLineup from '../components/DriverView/LeftDiv/DriverLineup';
 
 
 
@@ -18,6 +18,8 @@ const DriverContainer = () => {
                     let tempState = cloneDeep(defaultState);
                     tempState[current].active = true;
                 return [...tempState];
+            default:
+                return defaultState;
         }
     }
     
