@@ -208,6 +208,7 @@
 .li-flag__img {
   margin: 0 .3em 0;
   height: 2.562vmin;
+  height: 3.5vmin;
   width: 4.3vmin;
   position: absolute;
   left: 49%;
@@ -585,4 +586,7 @@ a {
 .navigation-li:active {
   background-color: rgba(255, 255, 255, 0.5);
   color: rgba(0, 0, 0, .5);
+}
+select{
+  direction: rtl;
 }
