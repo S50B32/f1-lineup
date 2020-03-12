@@ -71,6 +71,43 @@
       margin-top: 10px;
       margin-bottom: 0;
     }
+
+    .div-right__photo-img--track {
+      height: 100%;
+      width: 115.5%;
+      left: -8.5%;
+      top: -20%;
+      top: 0;
+      border-top-right-radius: 0%;
+
+    }
+    .div-right--calendar {
+      height: 50vh;
+    }
+    .div-right__title--calendar{
+      position: absolute;
+      opacity: 0;
+    }
+    .div-right__photo--calendar {
+      height: 80vh;
+      width: 99%;
+      left: 0;
+      top:-5%;
+      margin: 0;
+      padding: 0;
+      background: none;
+      border: none;
+    }
+    .li-calendar {
+      border-right: 3px solid grey;
+      border-top: 3px solid grey;
+      height: 5em;
+    }
+    .li-calendar__trackImg {
+      position: absolute;
+      opacity: 0;
+    }
+    
   
   }
 

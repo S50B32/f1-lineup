@@ -1,6 +1,8 @@
 .App {
   text-align: center;
   font-size: 2vmin; /*18px;*/
+  min-height: 100vh;
+  position: relative;
 }
 .header__logo {
   height: 23.38px;
@@ -48,13 +50,13 @@
 }
 .container{
   display: flex;
+  position: relative;
   justify-content: space-evenly;
   width: 100%;
   height: 100%;
 }
 .div {
   width: 45%;
-  height: 100%;
   margin: 10px;
   display: flex;
   flex-direction: column;
@@ -64,13 +66,13 @@
   -moz-box-shadow: 0px 0px 26px -12px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 26px -12px rgba(0,0,0,0.75);
 }
-.div-left { 
+.div-left {
   border-bottom-right-radius: 5%;
   align-items: center;
   background-color: rgba(0, 0, 0, .9);
   justify-content: center;
   position: relative;
-  color: rgba(250, 250, 248, .9)
+  color: rgba(250, 250, 248, .9);
 }
 .div-title {
   letter-spacing: 1px;  
@@ -248,6 +250,7 @@
   top: 15%;
   left: 18%;
   opacity: .9;
+  z-index: 1;
 
   /* centering logo.png offset with margin */
     width: 13.8vmin; /*img width: 216px*/
@@ -267,6 +270,7 @@
   left: 18%;
   
   opacity: .9;
+  z-index: 1;
   
   /* centering number.png offset with margin */
     width: 23.1vmin; /*img width: 216px*/
@@ -420,3 +424,165 @@ h2 {
 
 
 
+.ul-calendar {
+  height: 100%;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.li-calendar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-right: 5px solid grey;
+  border-top: 5px solid grey;
+}
+
+.li-calendar__trackImg {
+  height: 4.5em;
+  opacity: .8;
+  margin: 0 0 5px;
+}
+.li-calendar__flagImg {
+  height: 2.562vmin;
+  width: 4.3vmin;
+  opacity: .8;
+  margin: 0 0 5px;
+  border-radius: 2px;
+  padding: 1px;
+}
+
+.p-calendar {
+  padding: 2px;
+  margin: 0;
+  font-size: .6em;
+}
+
+.div-right__photo-img--track {
+  position: absolute;
+  bottom: 0;
+  left: -1px;
+  opacity: .9;
+  height: 54.65vmin;
+  height: 100%;
+  width: 100.22%;
+  border-top-right-radius: 30px;
+  z-index: 0;
+}
+
+.h2-name__track {
+  font-size: 1.35em;
+}
+
+.details__p--date {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  opacity: 1;
+  font-size: 1.5em;
+  margin-left: -30px;
+  left: 15%;
+  top: 10%;
+  background-color: rgba(0, 0, 0, .8);
+  border-radius: 12px;
+  height: 3em;
+  width: 4em;
+
+}
+
+.details__p--date::after {
+  content: 'MAR';
+  font-size: .7em;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.2em;
+  height: 1.5em;
+  border-radius: 8px;
+  margin-left: -1.6em;
+  left: 2.9em;
+  bottom: 0px;
+  background-color: rgba(211, 8, 8, 0.7);
+}
+.details__p--date-mar::after {
+  content: 'MAR';
+}
+.details__p--date-apr::after {
+  content: 'APR';
+}
+.details__p--date-may::after {
+  content: 'MAY';
+}
+.details__p--date-jun::after {
+  content: 'JUN';
+}
+.details__p--date-jul::after {
+  content: 'JUL';
+}
+.details__p--date-jul-aug::after {
+  content: 'JUL-AUG';
+  font-size: .7em;
+  width: 4.6em;
+  left: 2.25em;
+}
+.details__p--date-aug::after {
+  content: 'AUG';
+}
+.details__p--date-sep::after {
+  content: 'SEP';
+}
+.details__p--date-oct::after {
+  content: 'OCT';
+}
+.details__p--date-oct-nov::after {
+  content: 'OCT-NOV';
+  font-size: .7em;
+  width: 4.6em;
+  left: 2.25em;
+}
+.details__p--date-nov::after {
+  content: 'NOV';
+}
+
+.div-home {
+  margin: 5px 0 5px;
+  position: relative;
+  height: calc(100vh - 68px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./img/background.jpg);
+  background-position: 0 50%;
+  background-size: 100%;
+  color: white;
+}
+
+.navigation-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50vw;
+  margin: auto;
+  padding: 10px 0 10px;
+}
+.navigation-li {
+  color: white;
+  padding: 5px 20px 5px;
+}
+a {
+  text-decoration: none;
+}
+
+.navigation-li:hover {
+  background-color: rgba(100, 100, 100, .5);
+}
+.navigation-li:active {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, .5);
+}
