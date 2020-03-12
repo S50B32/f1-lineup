@@ -14,9 +14,9 @@ function App() {
       <div className="App">
         <Header />
         <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/drivers' component={Drivers} />
-          <Route path='/calendar' component={Calendar} />
+          <Route path='/f1-lineup' exact component={Home} />
+          <Route path='/f1-lineup/drivers' component={Drivers} />
+          <Route path='/f1-lineup/calendar' component={Calendar} />
         </Switch>
       </div>
     </Router>
