@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9f5546773959479ad708480c141f20ec",
+    "revision": "49d361f9cedae6f5916f224ad41270cd",
     "url": "/f1-lineup/index.html"
   },
   {
-    "revision": "8317bffb7845c4409244",
-    "url": "/f1-lineup/static/css/main.47971d50.chunk.css"
+    "revision": "6b68ebe47ff1506a653f",
+    "url": "/f1-lineup/static/css/main.379b2184.chunk.css"
   },
   {
     "revision": "75ff5d3b806ebc887927",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/f1-lineup/static/js/2.2e607736.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8317bffb7845c4409244",
+    "revision": "6b68ebe47ff1506a653f",
     "url": "/f1-lineup/static/js/main.0c19c653.chunk.js"
   },
   {
@@ -86,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b7fe219c5edd68d2770b745d4cb941a5",
     "url": "/f1-lineup/static/media/azerbaijan.b7fe219c.png"
+  },
+  {
+    "revision": "eaacb9caf79f3e93e1f4223e682ebe3d",
+    "url": "/f1-lineup/static/media/background-mobile.eaacb9ca.jpg"
   },
   {
     "revision": "2a772088cb9701f608b8d492da90d8c7",
