@@ -3,7 +3,6 @@ import DetailsContainer from '../components/DriverView/RightDiv/DetailsContainer
 import ListContainer from '../components/DriverView/LeftDiv/ListContainer';
 import useList from './useList';
 import calendarState from '../data/calendarState';
-import defaultState from '../data/defaultState';
 
 const Calendar = () => {
     const { items, current, handleListClick } = useList(calendarState);

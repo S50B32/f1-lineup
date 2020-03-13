@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import DetailsContainer from '../components/DriverView/RightDiv/DetailsContainer';
 import ListContainer from '../components/DriverView/LeftDiv/ListContainer';
 import useList from './useList';
