@@ -8,7 +8,7 @@ const TestList = () => {
     const [state, setState] = useState([]);
 
     useEffect(() => {
-        fetchData('http://ergast.com/api/f1/2019/drivers.json', 'MRData.DriverTable.Drivers');
+        fetchData('https://ergast.com/api/f1/2019/drivers.json', 'MRData.DriverTable.Drivers');
         console.log(state);
     }, [])
 

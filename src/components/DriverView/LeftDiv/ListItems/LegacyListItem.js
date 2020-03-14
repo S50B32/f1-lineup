@@ -1,10 +1,11 @@
 import React from 'react';
 
-const LegacyListItem = ({item, index}) => {
+const LegacyListItem = ({item, index, flagUrls}) => {
 
     return (
         <li className={`li`} id={index} >
             <p>{`${item.givenName} ${item.familyName} // [${item.dateOfBirth}] // ${item.nationality}`}</p>
+            <img src={flagUrls[index]} alt='[flag]' ></img>
         </li>
     )
 }

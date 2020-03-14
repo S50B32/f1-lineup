@@ -1,7 +1,7 @@
 import React from 'react';
 import List from './List';
 
-const ListContainer = ({items, handleListClick, type, handleSelectChange, seasons}) => {
+const ListContainer = ({items, handleListClick, type, handleSelectChange, seasons, flagUrls}) => {
     
     if (type === 'drivers') {
         return (
@@ -24,10 +24,10 @@ const ListContainer = ({items, handleListClick, type, handleSelectChange, season
             <div className='div div-left'>
                 <div className='div-title div-title__left'>F1® ALL TIME DRIVERS LIST
                     <select onChange={handleSelectChange}>
-                        {seasons.map((season) => <option key={season.season}>{season.season}</option>)}
+                        {seasons.slice(0).reverse().map((season) => <option key={season.season}>{season.season}</option>)}
                     </select>
                 </div>
-                <List items={items} type={type} />
+                <List items={items} type={type} flagUrls={flagUrls} />
             </div>
         )
     } else return null;

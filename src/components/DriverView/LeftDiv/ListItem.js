@@ -3,11 +3,11 @@ import DriverListItem from './ListItems/DriverListItem';
 import CalendarListItem from './ListItems/CalendarListItem';
 import LegacyListItem from './ListItems/LegacyListItem';
 
-const ListItem = ({item, index, handleListClick, type}) => {
+const ListItem = ({item, index, handleListClick, type, flagUrls}) => {
 
     if (type === 'drivers') return (<DriverListItem item={item} index={index} handleListClick={handleListClick} />)
     else if (type === 'calendar') return (<CalendarListItem item={item} index={index} handleListClick={handleListClick} />)
-    else if (type === 'legacy') return (<LegacyListItem item={item} index={index} />)
+    else if (type === 'legacy') return (<LegacyListItem item={item} index={index} flagUrls={flagUrls} />)
     else return null;
 }
 
