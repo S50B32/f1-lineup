@@ -21,7 +21,7 @@ const DetailsContainer = ({items, current, type}) => {
                         <DetailsData items={items} current={current} type='calendar' />
             </div>
         )
-    }
+    } else return null;
 }
 
 export default DetailsContainer;

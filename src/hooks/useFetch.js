@@ -1,25 +1,31 @@
 import { useState, useEffect } from 'react';
 
-const useFetch = (request) => {
+const useFetch = (reqUrl, resPath) => {
 
-    const [seasons, setSeasons] = useState([]);
+    
+
+    const [state, setState] = useState([]);     
+
+    const fetchData = async (requestUrl, responsePath) =>{
+        const data = await fetch(requestUrl);
+        const dataJson = await data.json();
+
+        //converting responsePath string ex. 'MRData.x.y' to ['MRData']['x']['y']
+            const responseJson = responsePath.split('.').reduce((o,i)=>o[i], dataJson);
+            console.log(responseJson);
+        setState(responseJson);
+    };
 
     useEffect(() => {
-        fetchSeasons();
-    }, [])
+        fetchData(reqUrl, resPath);
+        console.log('useFetch activated!');
+        
+    }, [reqUrl]);
 
 
-    const fetchSeasons = async () =>{
-        const data = await fetch(request);
-
-        const dataJson = await data.json();
-        const seasonList= dataJson.MRData.SeasonTable.Seasons;
-
-        setSeasons(seasonList);
-
-    }
-
-    return { seasons };
+    return { 
+        state
+    };
 }
 
 export default useFetch;

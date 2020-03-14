@@ -6,7 +6,8 @@ import Home from './hooks/Home';
 import Drivers from './hooks/Drivers';
 import Calendar from './hooks/Calendar';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Navigation from './hooks/Navigation';
+import LegacyDrivers from './hooks/LegacyDrivers';
+import TestList from './hooks/TestList';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/f1-lineup' exact component={Home} />
           <Route path='/f1-lineup/drivers' component={Drivers} />
           <Route path='/f1-lineup/calendar' component={Calendar} />
+          <Route path='/f1-lineup/legacy' component={LegacyDrivers} />
         </Switch>
       </div>
     </Router>

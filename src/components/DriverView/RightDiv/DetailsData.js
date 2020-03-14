@@ -27,7 +27,7 @@ const DetailsData = ({items, current, type}) => {
                 <p className='p-team'>{items[current].city}</p>
             </div>
         )
-    }
+    } else return null;
     
 }
 

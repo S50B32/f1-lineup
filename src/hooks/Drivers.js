@@ -7,11 +7,10 @@ import useFetch from './useFetch';
 
 const Drivers = () => {
     const { items, current, handleListClick } = useList(defaultState);
-    const { seasons } = useFetch('http://ergast.com/api/f1/seasons.json?limit=80&offset=0');
 
     return (
         <div className='container'>
-            <ListContainer items={items} handleListClick={handleListClick} type='drivers' seasons={seasons} />
+            <ListContainer items={items} handleListClick={handleListClick} type='drivers' />
             <DetailsContainer items={items} current={current} type='drivers' />
         </div>
     )

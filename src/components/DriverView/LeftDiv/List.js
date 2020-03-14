@@ -11,8 +11,7 @@ const List = ({items, handleListClick, type}) => {
                 )}            
             </ul>
         )
-    }
-    else if (type === 'calendar') {
+    } else if (type === 'calendar') {
         return (
             <ul className='ul ul-calendar'>
                 {items.map((item, index) => 
@@ -20,7 +19,16 @@ const List = ({items, handleListClick, type}) => {
                 )}            
             </ul>
         )
-    }
+    } else if (type === 'legacy') {
+        return (
+            <ul className='ul ul-legacy'>
+                {items.map((item, index) => 
+                    <ListItem item={item} index={index} key={item.driverId} type={type} />
+                )}            
+            </ul>
+        )
+    } else return null;
+
 }
 
 export default List;

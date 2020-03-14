@@ -560,6 +560,7 @@ h2 {
   background-position: 0 50%;
   background-size: 100%;
   color: white;
+  filter: saturate(50%);
 }
 
 .navigation-ul {

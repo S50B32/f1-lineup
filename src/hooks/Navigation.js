@@ -14,6 +14,9 @@ const Navigation = () => {
                 <Link to='/f1-lineup/calendar'>
                     <li className='navigation-li'>Calendar</li>
                 </Link>
+                <Link to='/f1-lineup/legacy'>
+                    <li className='navigation-li'>All Time Drivers (exp)</li>
+                </Link>
             </ul>
         </nav>
     )
