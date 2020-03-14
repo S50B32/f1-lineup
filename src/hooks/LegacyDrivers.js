@@ -8,13 +8,13 @@ import useFetch from './useFetch';
 const LegacyDrivers = () => {
     //const { items, current, handleListClick } = useList(defaultState);
     
-    const [requestUrl, setRequestUrl] = useState('http://ergast.com/api/f1/2019/drivers.json');
-    
-    const seasons = useFetch('http://ergast.com/api/f1/seasons.json?limit=80&offset=0', 'MRData.SeasonTable.Seasons');
+    const [requestUrl, setRequestUrl] = useState('https://ergast.com/api/f1/2019/drivers.json');
+
+    const seasons = useFetch('https://ergast.com/api/f1/seasons.json?limit=80&offset=0', 'MRData.SeasonTable.Seasons');
     const drivers = useFetch(requestUrl, 'MRData.DriverTable.Drivers');
 
     const handleSelectChange = (e) => {
-        setRequestUrl(`http://ergast.com/api/f1/${seasons.state[e.target.selectedIndex].season}/drivers.json`);
+        setRequestUrl(`https://ergast.com/api/f1/${seasons.state[e.target.selectedIndex].season}/drivers.json`);
     }
     
     return (
