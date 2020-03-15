@@ -16,7 +16,9 @@ const LegacyDrivers = () => {
     const drivers = useFetch(requestUrl, 'MRData.DriverTable.Drivers');
 
     const handleSelectChange = (e) => {
-        setRequestUrl(`https://ergast.com/api/f1/${seasons.state[e.target.selectedIndex].season}/drivers.json`);
+        setRequestUrl(`https://ergast.com/api/f1/${e.target.options[e.target.selectedIndex].text}/drivers.json`);
+        console.log(e.target.options[e.target.selectedIndex].text);
+        //setRequestUrl(`https://ergast.com/api/f1/${seasons.state[e.target.selectedIndex].season}/drivers.json`);
     }
 
     useEffect(() => {
@@ -42,6 +44,8 @@ const LegacyDrivers = () => {
 
             } catch (error) {
                 console.log('countriesData.js data corrupt or flagAPI data unobtainable');
+                setFlagUrls((prev) => [...prev, ''])
+
             }
         });
     }

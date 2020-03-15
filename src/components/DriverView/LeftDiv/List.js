@@ -22,7 +22,7 @@ const List = ({items, handleListClick, type, flagUrls}) => {
         )
     } else if (type === 'legacy') {
         return (
-            <ul className='ul ul-legacy'>
+            <ul className='ul legacy__ul'>
                 {items.map((item, index) =>{
                         return(
                             <ListItem item={item} index={index} key={item.driverId} type={type} flagUrls={flagUrls} />

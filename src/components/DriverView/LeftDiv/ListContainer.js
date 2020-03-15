@@ -22,8 +22,9 @@ const ListContainer = ({items, handleListClick, type, handleSelectChange, season
     } else if (type === 'legacy') {
         return (
             <div className='div div-left'>
-                <div className='div-title div-title__left'>F1® ALL TIME DRIVERS LIST
-                    <select onChange={handleSelectChange}>
+                <div className='div-title div-title__left'>
+                    <h4 className='legacy__h4' >F1® ALL TIME DRIVERS LIST</h4>
+                    <select className='select-css' onChange={handleSelectChange}>
                         {seasons.slice(0).reverse().map((season) => <option key={season.season}>{season.season}</option>)}
                     </select>
                 </div>
