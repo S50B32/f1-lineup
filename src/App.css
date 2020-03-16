@@ -7,7 +7,7 @@ body{
 .App {
   text-align: center;
   font-size: 2vmin; /*18px;*/
-  height: 100%;
+
   position: relative;
   display: flex;
   flex-direction: column;
@@ -23,12 +23,31 @@ body{
   color: white;
   text-align: center;
   font-size: 2vmin; /*18px;*/
+  -webkit-box-shadow: 0px 0px 1.66em 1.66em rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 1.66em 1.66em rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 1.66em 1.66em rgba(0,0,0,0.4);
 }
 .header__logo {
   height: 23.38px;
   height: 2.5vmin;/*3vmin;*/
+  height: 2.5em;
+  opacity: .3;
   padding: 5px;
+  padding: 0;
+  margin: 0;
   pointer-events: none;
+  position: absolute;
+  left: 0%;
+}
+.header__title{
+  font-size: 1.4em;
+  padding: 0;
+  margin: 10;
+  font-family: 'Formula1 Display Bold';
+  position: relative;
+  left: -4%;
+  text-shadow: .17em .17em rgb(36, 36, 36, .2);
+
 }
 .header__div {
   position: relative;
@@ -41,10 +60,6 @@ body{
   color: white;
   font-size: 1.2em; /*1.5vmin;*/
   font-family: 'Formula1 Display Regular';
-  
-    -webkit-box-shadow: 0px 0px 26px -12px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 26px -12px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 26px -12px rgba(0,0,0,0.75);
 }
 .header__p--copyright {
   font-size: .5em;
@@ -230,7 +245,6 @@ body{
   /*background-color: rgba(255, 255, 255, .8);*/
   color: black;
   border-bottom-left-radius: 5%;
-  height: 100%;
 }
 .div-right__photo {
   /*box-sizing: content-box;*/
@@ -355,11 +369,7 @@ h1 {
   padding-left: 3vmin;
   opacity: .9; 
 }
-.header__title{
-  font-size: 1em;
-  padding: 0;
-  margin: 10;
-}
+
 h2 {
   margin: 0 5.4vh 0;
   padding: 1.5vmin .5vmin .5vmin;
@@ -560,17 +570,18 @@ h2 {
 .home__div {
   margin: 5px 0 5px;
   position: relative;
-  height: 100%;
+  height: calc(100vh - 7.65vmin - 10px);
   width: 100%;
   
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-image: url(./img/background.jpg);
-  background-position: 0 50%;
-  background-size: 150%;
+  background-position: 0 80%;
+  background-size: 100%;
   color: white;
-  filter: saturate(50%);
+  filter: saturate(40%);
 }
 
 .navigation-ul {
@@ -586,6 +597,7 @@ h2 {
 .navigation-li {
   color: white;
   padding: 5px 20px 5px;
+  font-size: .8em;
 }
 a {
   text-decoration: none;
@@ -647,10 +659,15 @@ a {
 .select-css option:hover {
   box-shadow: 0 0 10px 100px rgb(168, 24, 48) inset;
 }
-
+.legacy__div{
+  
+  position: relative;
+  height: auto;
+}
 
 .legacy__ul {
   width: 90%;
+
 }
 .legacy__li {
   margin: 0 0 3px;
@@ -711,6 +728,20 @@ a {
   padding: 100px;
 }
 
+.home__div--titleContainer{
+  background-color: rgba(0, 0, 0, .6);
+  width: 100%;
+  position: relative;
+  top: 0%;
+  padding: 1em 0 1em;
+}
 .home__title {
+  text-shadow: .1em .1em rgb(36, 36, 36, .4);
+  
+}
+.home__title--h1{
   font-size: 2em;
+}
+.home__title--h2{
+  font-size: 1.5em;
 }

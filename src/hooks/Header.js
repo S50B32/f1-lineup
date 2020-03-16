@@ -7,8 +7,8 @@ const Header = () => {
     return (
         <header className="header">
             <div className='header__div'>
-                <img src={logo} className="header__logo" alt="logo" />
-                <h1 className='header__title'>REACT F1 Driver Line-up</h1>
+            <img src={logo} className="header__logo" alt="logo" />
+                <h1 className='header__title'>REACT F1 2020</h1>
                 <Navigation />
                 <p className='header__p--copyright'>Copyright © 2020 gupia_Pemek</p>
             </div>
@@ -17,3 +17,4 @@ const Header = () => {
 }
 
 export default Header;
+

@@ -4,7 +4,12 @@ const Home = () => {
     
     return (
         <div className='container home__div'>
-            <h1 className='home__title'>Welcome to F1 2020 Database</h1>
+            <div className='home__div--titleContainer'>
+                <h2 className='home__title home__title--h2'>Welcome to the unofficial React-made</h2>
+                <h1 className='home__title home__title--h1'>F1 2020 Database</h1>
+                
+            </div>
+            
         </div>
     )
 }

@@ -1,5 +1,8 @@
 @media 
-  (max-device-width: 800px){ 
+  (max-device-width: 800px){
+    body{
+      height: 100%;
+    } 
     .container{
       display: flex;
       flex-direction: column-reverse;
@@ -110,16 +113,18 @@
     .home__div {
      
       background-image: url(./img/background-mobile.jpg);
-      background-position: 0 50%;
-      background-size: 100%;
+      background-position: 61% 50%;
+      background-size: 230%;
       color: white;
+
+      height: 85vh;
     }
     .navigation-li {
       color: white;
       padding: 3px 3px 3px;
     }
     .header__title{
-      font-size: .8em;
+      font-size: 1em;
       padding: 0;
       margin: 3px;
     }

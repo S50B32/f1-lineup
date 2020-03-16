@@ -15,7 +15,7 @@ const Navigation = () => {
                     <li className='navigation-li'>Calendar</li>
                 </Link>
                 <Link to='/f1-lineup/legacy'>
-                    <li className='navigation-li'>All Time Drivers (exp)</li>
+                    <li className='navigation-li'>All Time Drivers</li>
                 </Link>
             </ul>
         </nav>
