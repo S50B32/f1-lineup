@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4975074bd6e36e8ee593f20866016ca3",
+    "revision": "4f5d20624afc2dd6f9ffced95eb368ad",
     "url": "/f1-lineup/index.html"
   },
   {
-    "revision": "4c4d43c2358e89525788",
-    "url": "/f1-lineup/static/css/main.df658f69.chunk.css"
+    "revision": "3f1476c6f71056a0838f",
+    "url": "/f1-lineup/static/css/main.9118a79f.chunk.css"
   },
   {
     "revision": "991b85d0825c3e631b83",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/f1-lineup/static/js/2.3be62c78.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4c4d43c2358e89525788",
-    "url": "/f1-lineup/static/js/main.e6c1f058.chunk.js"
+    "revision": "3f1476c6f71056a0838f",
+    "url": "/f1-lineup/static/js/main.01468a5d.chunk.js"
   },
   {
     "revision": "97f189a19668b937e173",
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/f1-lineup/static/media/azerbaijan.b7fe219c.png"
   },
   {
-    "revision": "eaacb9caf79f3e93e1f4223e682ebe3d",
-    "url": "/f1-lineup/static/media/background-mobile.eaacb9ca.jpg"
+    "revision": "36a26bbd824ac144913c6390fa71db93",
+    "url": "/f1-lineup/static/media/background-mobile.36a26bbd.jpg"
   },
   {
     "revision": "2a772088cb9701f608b8d492da90d8c7",
@@ -244,8 +244,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/f1-lineup/static/media/leclerc.3912d35e.png"
   },
   {
-    "revision": "e339d3f4ea6f0ab8c6c891f6d380e91a",
-    "url": "/f1-lineup/static/media/logo.e339d3f4.svg"
+    "revision": "98bf00fc9ce63ecb8a9506bf40e9ba11",
+    "url": "/f1-lineup/static/media/logo.98bf00fc.svg"
   },
   {
     "revision": "b97f6258912c108bc5e14bb4242b03bc",
