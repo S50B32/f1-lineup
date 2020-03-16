@@ -1,30 +1,32 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
-const useFetch = (reqUrl, resPath) => {
+const useFetch = () => {
 
-    
-
-    const [state, setState] = useState([]);     
+    const [state, setState] = useState([]);
+    const [isLoading, setIsLoading] = useState(false);
 
     const fetchData = async (requestUrl, responsePath) =>{
-        const data = await fetch(requestUrl);
-        const dataJson = await data.json();
-
-        //converting responsePath string ex. 'MRData.x.y' to ['MRData']['x']['y']
-            const responseJson = responsePath.split('.').reduce((o,i)=>o[i], dataJson);
-            console.log(responseJson);
-        setState(responseJson);
+    
+        await fetch(requestUrl).then((response) => {
+            console.log('useFetch activated!');
+            return response.json();
+            
+        }).then((data) => {
+            //deactivatesSpinner();
+            
+            const responseJson = responsePath.split('.').reduce((o,i)=>o[i], data);
+            setIsLoading(false);
+            setState(responseJson);
+                console.log('isLoading after fetch:', isLoading);
+        });
     };
 
-    useEffect(() => {
-        fetchData(reqUrl, resPath);
-        console.log('useFetch activated!');
-        
-    }, [reqUrl]);
-
-
     return { 
-        state
+        state,
+        setState,
+        fetchData,
+        isLoading,
+        setIsLoading
     };
 }
 

@@ -14,6 +14,7 @@ function App() {
     <Router>
       <div className="App">
         <Header />
+        
         <Switch>
           <Route path='/f1-lineup' exact component={Home} />
           <Route path='/f1-lineup/drivers' component={Drivers} />

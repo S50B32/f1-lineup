@@ -1,7 +1,7 @@
 import React from 'react';
 import List from './List';
 
-const ListContainer = ({items, handleListClick, type, handleSelectChange, seasons, flagUrls}) => {
+const ListContainer = ({items, handleListClick, type, handleSelectChange, seasons, flagUrls, isActive}) => {
     
     if (type === 'drivers') {
         return (
@@ -28,7 +28,7 @@ const ListContainer = ({items, handleListClick, type, handleSelectChange, season
                         {seasons.slice(0).reverse().map((season) => <option key={season.season}>{season.season}</option>)}
                     </select>
                 </div>
-                <List items={items} type={type} flagUrls={flagUrls} />
+                <List items={items} type={type} flagUrls={flagUrls} isActive={isActive} />
             </div>
         )
     } else return null;

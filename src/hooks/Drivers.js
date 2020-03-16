@@ -3,7 +3,6 @@ import DetailsContainer from '../components/DriverView/RightDiv/DetailsContainer
 import ListContainer from '../components/DriverView/LeftDiv/ListContainer';
 import useList from './useList';
 import defaultState from '../data/defaultState';
-import useFetch from './useFetch';
 
 const Drivers = () => {
     const { items, current, handleListClick } = useList(defaultState);

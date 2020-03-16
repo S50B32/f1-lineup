@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react';
-import useFetch from './useFetch';
 
 const TestList = () => {
     //const drivers = useFetch('http://ergast.com/api/f1/2019/drivers.json', 'MRData.DriverTable.Drivers.0');
@@ -24,8 +23,6 @@ const TestList = () => {
             console.log(responseJson);
         setState(responseJson);
     }
-
-    
 
     return (
         <div className='container'>
